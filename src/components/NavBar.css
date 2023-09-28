@@ -1,0 +1,16 @@
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin: 0 100px;
+  }
+  
+  .nav-links h1 {
+    margin: 0;
+  }
+  
