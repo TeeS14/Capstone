@@ -29,6 +29,7 @@ function Home() {
         <img className="bannerImg" src="./assets/img.png" />
       </div>
       <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm} />{" "}
+      {/* Use the SearchInput component here */}
       <div className="product-container">
         {filteredProducts.map((product) => (
           <Product key={product.id} product={product} />
