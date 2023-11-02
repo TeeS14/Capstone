@@ -5,13 +5,10 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 
-// eslint-disable-next-line react/prop-types
 export default function Product({ product }) {
-  // eslint-disable-next-line react/prop-types
-  const { title, image, price, rating } = product;
 
+  const { title, image, price, rating } = product;
   return (
-    // eslint-disable-next-line react/prop-types
     <Link to={`/product/${product.id}`}>
       <Card
         raised
