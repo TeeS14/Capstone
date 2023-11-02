@@ -26,10 +26,6 @@ export default function Review() {
     }
     updateCart();
   }, []);
-  // const total = newCart.reduce(
-  //   (acc, product) => acc + product.price * product.quantity,
-  //   0
-  // );
   return (
     <React.Fragment>
       <Typography variant="h6" gutterBottom>

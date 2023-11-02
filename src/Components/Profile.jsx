@@ -1,7 +1,7 @@
 function Profile() {
     return (
       <div>
-          Hey Welcome John
+          Hey Welcome Tevin
       </div>
     )
   }
